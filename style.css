@@ -17,6 +17,10 @@
     position: relative;
 }
 
+a:link {
+    text-decoration: none;
+    }
+    
 nav{display: flex;
 width: 100%;
 align-items: center;
@@ -103,3 +107,100 @@ animation: back 20s linear infinite;}
             color: white;
             position: relative;}
 
+    .wrap{    width: 80%;
+        margin-top: 130px;
+        display: flex;
+    }    
+
+.card{box-shadow: 0 4px;
+transition: 0.4s;
+width: 300px;
+height: 45vh;
+background-color: #ffff;
+text-align: center;
+font-size: 16px;
+font-family: sans-serif;
+}
+
+#card1{ margin: 85px 0 0 -73px;}
+#card2{margin: -308px 0 0 362px;}
+#card3{margin: -280px 0 0 357px;}
+
+#Experience{ width:87%;
+    height: 80vh;
+    background-image: url(paper.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 5%;
+    margin: 1% 101px;;
+    position: relative;
+display: flex}
+
+
+#image{width: 30%;
+    height: 21vh;
+    margin: 8px 0 0px 350px;
+}
+
+.cardEX{box-shadow: 0 4px;
+    transition: 0.4s;
+    width: 300px;
+    height: 45vh;
+    background-color: #ffff;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;}
+
+    #card4{margin: 60px 0 0 21px;}
+    #card5{margin: -311px 0 0 -597px;}
+
+    .project{width: 1330px;
+        height: 80vh;
+        background-image: url(back.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 100px;
+        display: flex;
+        margin: 74px 0 0 -720px;}
+
+        #image1{width: 25%;
+            height: 22vh;
+            padding-top: 10px;
+            margin: 0 448px;
+        }
+
+        #card6{margin: 60px 0 0 -1108px;}
+        #card7{margin: -283px 0 0 629px;}
+
+        #footer{width: 1330px;
+            height: 20vh;
+            background-image: url(tree.jpg);
+            background-size: cover;
+            background-position: center;
+            margin: 100px;
+            display: flex;
+            margin: 74px 0 0 -123px;}
+
+            .fa-phone{
+                color: white;
+                font-size: 30px;
+                margin: 35px 266px;}
+                
+                #F{color: white;
+                    margin: 76px 0 0 -339px;
+                }
+            .fa-envelope{ color: white;
+                font-size: 30px;
+                margin: 35px 159px;}
+
+           #M{color: white;
+            margin: 76px 0 0 -276px;}
+
+        .fa-github{ color: white;
+            font-size: 40px;
+            margin: 35px 111px;}
+
+          .fa-linkedin  {color: white;
+                font-size: 40px;
+                margin: 38px 39px;
+            }
