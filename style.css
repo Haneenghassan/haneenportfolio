@@ -10,7 +10,7 @@
 .container {
     width: 100%;
     height: 80vh;
-   background-color:black;
+    background-image: url(pngtree.jpg);
     background-size: cover;
     background-position: center;
     padding: 0 5%;
@@ -46,25 +46,26 @@ nav ul li {
     margin: 10px 30px;
 }
 
-nav ul li a{color:white;
+nav ul li a{font-size: 25px;
+    color:#483948;
     text-decoration: none;
 
 }
 
 nav ul li a:hover {color: #B54213;}
 
-.pic{    width: 400px;
+.pic{width: 400px;
     box-shadow: #B54213;
     margin: -205px 700px ;}
 
-.text-box{color: white;
+.text-box{color: #483948;
           display: flex;
         width:50%;
     flex-wrap:wrap;
     margin: -100px 0 0 50px;}
 
     .text-box h1{color: transparent;
-    -webkit-text-stroke: 1px #ffff ;
+    -webkit-text-stroke: 1px #483948;
     background: url(diagonal-removebg-preview.png);
      -webkit-background-clip:text ;
      line-height: 40px;
@@ -90,8 +91,8 @@ animation: back 20s linear infinite;}
     .Education{ 
         width:87%;
         height: 80vh;
-        /*background-image: url(leaves.jpg);*/
-        background-color: black;
+        background-image: url(pngtree.jpg);
+       /* background-color: black;*/
         background-size: cover;
         background-position: center;
         padding: 0 5%;
@@ -108,25 +109,26 @@ animation: back 20s linear infinite;}
         #E{ margin: 77px -463px 0;
            position: relative;
            color: transparent;
-           -webkit-text-stroke: 1px #ffff ;
+           -webkit-text-stroke: 1px #483948 ;
             background: url(diagonal-removebg-preview.png);
             -webkit-background-clip:text ;
              line-height: 40px;
             background-position: 0 0;
             animation: back 20s linear infinite;
         font-size: 51px;
-        background-color: #B54213;}
+        background-color: white;}
 
     .wrap{    width: 80%;
         margin-top: 130px;
         display: flex;
     }    
 
-.card{box-shadow: 8px 9px #f2f2ef;
+.card{box-shadow: 8px 9px #B54213;
     transition: 0.4s;
     width: 300px;
     height: 45vh;
-    background-color: #DED3A6;
+    background-color: white;
+    ;
     text-align: center;
     font-size: 16px;
     font-family: sans-serif;
@@ -138,7 +140,7 @@ animation: back 20s linear infinite;}
 
 #Experience{ width:87%;
     height: 80vh;
-  background-color: black;
+  background:url(pngtree.jpg);
     background-size: cover;
     background-position: center;
     padding: 0 5%;
@@ -152,22 +154,22 @@ display: flex}
 #image{width: 30%;
     margin: 48px 0 0px 358px;
     color: transparent;
-    -webkit-text-stroke: 1px #ffff ;
+    -webkit-text-stroke: 1px #483948;
     background: url(diagonal-removebg-preview.png);
      -webkit-background-clip:text ;
      line-height: 40px;
     background-position: 0 0;
 animation: back 20s linear infinite;
 font-size: 51px;
-background-color: #B54213;
+background-color: white;
 
 }
 
-.cardEX{box-shadow: 8px 9px #f2f2ef;
+.cardEX{box-shadow: 8px 9px #B54213;
     transition: 0.4s;
     width: 300px;
     height: 45vh;
-    background-color: #DED3A6;;
+    background-color: white;;
     text-align: center;
     font-size: 16px;
     font-family: sans-serif;}
@@ -178,7 +180,7 @@ background-color: #B54213;
 
     .project{width: 1330px;
         height: 80vh;
-        background-color: black;
+        background-image: url(pngtree.jpg);
         background-size: cover;
         background-position: center;
         margin: 100px;
@@ -187,19 +189,19 @@ background-color: #B54213;
 
         #image1{
             color: transparent;
-    -webkit-text-stroke: 1px #ffff ;
+    -webkit-text-stroke: 1px #483948 ;
     background: url(diagonal-removebg-preview.png);
      -webkit-background-clip:text ;
      line-height: 40px;
     background-position: 0 0;
 animation: back 20s linear infinite;
 font-size: 60px;
-background-color: #B54213;
+background-color: white;
             padding-top: 10px;
             margin: 32px 512px
         }
 
-        .fa-graduation-cap{color: brown;
+        .fa-graduation-cap{color: #483948;
             font-size: 106px;
             margin: 29px 0 0 265px;
             position: absolute;}
@@ -209,8 +211,8 @@ background-color: #B54213;
 
         #footer{width: 1330px;
             height: 20vh;
-            /*background-image: url(tree.jpg);*/
-            background-color: black;
+            background-image: url(pngtree.jpg);
+          
             background-size: cover;
             background-position: center;
             margin: 100px;
@@ -218,35 +220,35 @@ background-color: #B54213;
             margin: 74px 0 0 -123px;}
 
             .fa-phone{
-                color: white;
+                color:  #483948;
                 font-size: 30px;
                 margin: 35px 266px;}
                 
-                #F{color: white;
+                #F{color:  #483948;
                     margin: 76px 0 0 -339px;
                 }
-            .fa-envelope{ color: white;
+            .fa-envelope{ color:  #483948;
                 font-size: 30px;
                 margin: 35px 159px;}
 
-           #M{color: white;
+           #M{color:  #483948;
             margin: 76px 0 0 -276px;}
 
-        .fa-github{ color: white;
+        .fa-github{ color:  #483948;
             font-size: 40px;
             margin: 35px 111px;}
 
-          .fa-linkedin  {color: white;
+          .fa-linkedin  {color:  #483948;
                 font-size: 40px;
                 margin: 38px 39px;   
             }
 
-          .fa-business-time{color: brown;
-            font-size: 90px;
-            margin: 18px 0 0 240px;
+          .fa-business-time{color: #483948;
+            font-size: 58px;
+            margin: 35px 0 0 284px;
             position: absolute;}
 
-            .fa-diagram-project{color: brown;
+            .fa-diagram-project{color: #483948;
     font-size: 61px;
     margin: 33px 0 0 441px;
     position: absolute;
